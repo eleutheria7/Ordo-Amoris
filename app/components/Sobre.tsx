@@ -20,54 +20,85 @@ export default function Sobre() {
           </div>
 
           {/* Texto Central */}
-          <div className=" space-y-6 text-lg text-justify">
-            <p className="leading-relaxed">
-              O Eleutheria é um retiro católico organizado pela juventude da
-              Paróquia Santa Luzia de Hortolândia/SP, destinado a jovens de 14 a
-              30 anos.
-            </p>
+          <div className="space-y-6 text-lg text-justify">
+          <p className="leading-relaxed">
+          O Ordo Amoris é um retiro católico organizado pela juventude da
+          Paróquia Santa Luzia de Hortolândia/SP, destinado a jovens de 14 a
+          19 anos.
+          </p>
 
-            <p className="leading-relaxed">
-              Neste encontro, você terá a oportunidade de:
-            </p>
+          <h2 className="text-3xl font-bold text-center mb-12 mt-12">
+          O que é Ordo Amoris
+          </h2>
 
-            <ul className="list-disc pl-6">
-              <li>Desenvolver uma relação mais profunda com Deus</li>
-              <li>Se abster das preocupações cotidianas</li>
-              <li>Descobrir o sentido da sua vida</li>
-              <li>Encontrar a verdadeira alegria</li>
-              <li>Compartilhar experiências com outros jovens</li>
-            </ul>
+          <p>
+          “Ordo Amoris” é uma expressão latina que significa “ordem do amor”.
+          No pensamento católico, descreve a justa ordenação dos amores dentro
+          do coração humano. Não se trata apenas de amar, mas de amar as coisas
+          certas, na medida certa e na ordem certa, conforme o projeto de Deus.
+          </p>
 
-            <p>
-              O Eleutheria é um momento único para você ter um encontro genuíno
-              com a bondade e a misericórdia de Deus.
-            </p>
+          <p>
+          Nesse sentido, o Ordo Amoris refere-se à harmonia interior que nasce
+          quando o amor da pessoa está corretamente orientado. É a ordem
+          espiritual que estrutura o coração segundo o amor divino, permitindo
+          que a pessoa viva de forma íntegra, equilibrada e próxima de Deus.
+          </p>
 
-            <p>
-              Se você está procurando por um momento de reflexão, oração e
-              encontro com Deus, o Eleutheria é o lugar certo para você!
-            </p>
+          <h2 className="text-3xl font-bold text-center mb-12 mt-12">
+          Santos e o Ordenar das Paixões
+          </h2>
 
-            <h2 className="text-3xl font-bold text-center mb-12 mt-12">
-              O que é Eleutheria?
-            </h2>
+          <p>
+          Diversos santos ensinaram sobre a importância de ordenar as paixões
+          para que o coração humano seja guiado plenamente pelo amor de Deus.
+          </p>
 
-            <p>
-              "Eleutheria" é uma palavra grega (Ελευθερία) que significa
-              "liberdade". No contexto cristão, especialmente no catolicismo, o
-              termo "Eleutheria" é usado para se referir à liberdade espiritual
-              que vem da relação com Deus.
-            </p>
+          <p>
+          <strong>Santo Agostinho</strong> é um dos que mais desenvolveram a
+          ideia do <i>ordo amoris</i>. Ele explica que o pecado nasce quando as
+          paixões ocupam o lugar que pertence a Deus. Nossa vida se torna reta
+          quando amamos o que deve ser amado, na ordem correta. Ordenar as
+          paixões significa ajustar os desejos ao bem maior, unificando e
+          pacificando o coração.
+          </p>
 
-            <p>
-              Nesse sentido, a Eleutheria não se refere apenas à liberdade
-              física ou política, mas sim à liberdade interior que permite que
-              as pessoas vivam de acordo com a vontade de Deus e alcancem a
-              plenitude da vida.
-            </p>
-          </div>
+          <p>
+          <strong>São Tomás de Aquino</strong> ensina que as paixões não são
+          más, mas precisam ser guiadas pela razão iluminada pela graça. As
+          virtudes da temperança e da fortaleza ajudam a moderá-las, enquanto a
+          caridade orienta todo o amor humano ao seu fim último: Deus.
+          </p>
 
+          <p>
+          <strong>Santa Teresa de Ávila</strong> destaca que, para alcançar uma
+          vida profunda de oração, é necessário domar os afetos. Um coração
+          disperso e cheio de apegos não consegue se fixar em Deus. Ordenar as
+          paixões, portanto, significa libertar-se do que ocupa espaço
+          desnecessário na alma.
+          </p>
+
+          <p>
+          <strong>São João da Cruz</strong> ensina que o desapego é essencial
+          para ordenar o amor. Para ele, as paixões descontroladas aprisionam o
+          coração; somente quando estão em ordem o espírito encontra verdadeira
+          liberdade para amar com pureza.
+          </p>
+
+          <p>
+          <strong>São Francisco de Sales</strong> afirma que ordenar as paixões
+          não é suprimi-las, mas educá-las. A verdadeira devoção integra os
+          afetos, emoções e a vontade, orientando tudo suavemente ao bem.
+          </p>
+
+          <p>
+          <strong>Santa Catarina de Sena</strong> ressalta que a desordem das
+          paixões obscurece a razão e dificulta reconhecer a vontade de Deus.
+          Para ela, o amor verdadeiro nasce quando o coração é purificado dos
+          excessos e recolocado na verdade diante de Deus.
+          </p>
+            </div>
+          
           {/* Imagem Direita */}
           <div className="hidden md:block relative w-full h-full">
             <div className="hidden md:block absolute right-0 w-42 h-full">
