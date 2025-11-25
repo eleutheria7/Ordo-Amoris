@@ -16,14 +16,13 @@ export default function EleutheriaBanner() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            ELEUTHERIA 2025
+            ORDO AMORIS 2026
           </h1>
           <h2 className="text-xl md:text-2xl mb-6">
-            “Eis a vontade de Deus: A vossa Santificação” - I Tessalonicenses 4,
-            3
+            Retiro de afetividade e sexualidade 
           </h2>
           <p className="text-lg md:text-xl font-semibold mb-8">
-            Dias 20, 21 e 22 de Junho de 2025
+            Dia 18 de Janeiro de 2026
           </p>
           <div className="">
             <a
