@@ -6,7 +6,7 @@ export default function EleutheriaBanner() {
     <section className="relative flex items-center justify-center text-white h-[40vh] min-h-[30vh] mt-20">
       <div className="flex items-center justify-center">
         <Image
-          src="/assets/img/cabeçalho.jpg"
+          src="/assets/img/cabeçalhoOA.jpg"
           alt="Background Eleutheria"
           layout="fill"
           objectFit="cover"
