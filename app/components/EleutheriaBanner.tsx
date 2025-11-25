@@ -3,7 +3,7 @@ import React from "react";
 
 export default function EleutheriaBanner() {
   return (
-    <section className="relative flex items-center justify-center text-white h-[40vh] min-h-[30vh] mt-20">
+    <section className="relative flex items-center justify-center text-white h-[15vh] min-h-[10vh] mt-20">
       <div className="flex items-center justify-center">
         <Image
           src="/assets/img/cabeçalhoOA.jpg"
