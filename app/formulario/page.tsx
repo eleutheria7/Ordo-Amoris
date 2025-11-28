@@ -39,7 +39,7 @@ export default function FormularioPage() {
       const age = calculateAge(birthDate);
 
       if (age < 14) {
-        setAgeError("Você deve ter pelo menos 14 anos completos para se inscrever");
+        setAgeError("Você deve ter pelo menos 12 anos completos para se inscrever");
       } else {
         setAgeError("");
       }
@@ -57,7 +57,7 @@ export default function FormularioPage() {
   const birthDate = new Date(birthdate);
   const age = calculateAge(birthDate);
 
-  if (age < 14) {
+  if (age < 12) {
     setAgeError("Inscrição permitida apenas para maiores de 14 anos");
     return;
   }
@@ -96,40 +96,38 @@ const handleClosePopup = () => {
       <div className="bg-white shadow-xl rounded-lg p-6 w-full max-w-2xl">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            ELEUTHERIA 2025
+            ORDO AMORIS 2026
           </h1>
           <p className="text-lg font-semibold text-gray-700">
-            “Eis a vontade de Deus: A vossa Santificação”
+            “O Amor me explicou tudo - São João Paulo II”
           </p>
-          <p className="text-gray-600 italic">I Tessalonicenses 4, 3</p>
+          <p className="text-gray-600 italic"></p>
         </div>
 
         <div className="bg-gray-50 p-4 rounded-lg mb-8 space-y-2">
           <p>
-            <strong>Data:</strong> 20, 21 e 22 de Junho/2025
+            <strong>Data:</strong> 18 de Janeiro de 2026
           </p>
           <p>
-            <strong>Música Tema:</strong> Eis-me aqui – Colo de Deus
+            <strong>Música Tema:</strong> Perfume - Fraternidade São João Paulo II
           </p>
           <p>
-            <strong>Local:</strong> Centro de Formação Religioso – Luiza G.
-            Freguglia
+            <strong>Local:</strong> Centro Social Laudato Si
           </p>
           <p>
-            <strong>Cidade:</strong> Santa Bárbara d’Oeste
+            <strong>Cidade:</strong> Campinas, São Paulo
           </p>
           <p>
-            <strong>Saída:</strong> 20/06/2025 às 19h00 - Paróquia Santa Luzia
+            <strong>Saída:</strong> 18/01/2026 às 07h15 - Paróquia Santa Luzia
           </p>
           <p>
-            <strong>Retorno:</strong> 22/06/2025 às 17h30 - Saída de Santa
-            Bárbara d’Oeste
+            <strong>Retorno:</strong> 18/01/2026 às 18h00 - Saída da casa de retiro
           </p>
           <p>
-            <strong>Faixa etária:</strong> 14 a 30 anos
+            <strong>Faixa etária:</strong> 12 a 19 anos
           </p>
           <p>
-            <strong>Valor:</strong> R$ 100 - 1° lote até 15/05
+            <strong>Valor:</strong> R$50 | Almoço e transporte incluso
           </p>
         </div>
 
