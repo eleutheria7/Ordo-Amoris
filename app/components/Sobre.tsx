@@ -10,12 +10,12 @@ export default function Sobre() {
         <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-8 items-center">
           <div className="hidden md:block relative w-full h-full">
             <div className="hidden md:block absolute left-0 w-42 h-full">
-              <Image
+              {/*<Image
                 src="/assets/img/coração.jpg"
                 alt="Símbolo Eleutheria"
                 fill
                 className="object-cover object-center"
-              />
+              />*/}
             </div>
           </div>
 
@@ -102,12 +102,12 @@ export default function Sobre() {
           {/* Imagem Direita */}
           <div className="hidden md:block relative w-full h-full">
             <div className="hidden md:block absolute right-0 w-42 h-full">
-              <Image
+              {/*<Image
                 src="/assets/img/coração.jpg"
                 alt="Símbolo Eleutheria"
                 fill
                 className="object-cover"
-              />
+              />*/}
             </div>
           </div>
         </div>
