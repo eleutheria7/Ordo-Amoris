@@ -7,7 +7,7 @@ export default function Video() {
       <h2 className="text-2x1 font-bold text-center mb-6">Perfume</h2>
       <div className="aspect-w-16 aspect-h-9 max-w-4xl h-auto mx-auto">
         <iframe
-          src="https://youtu.be/bPNr8Wr3qkk"
+          src="https://www.youtube.com/embed/bPNr8Wr3qkk"
           className="w-full min-h-[380px] border-0"
           allowFullScreen
         />
