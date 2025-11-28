@@ -19,7 +19,7 @@ export default function EleutheriaBanner() {
             ORDO AMORIS 2026
           </h1>
           <h2 className="text-xl md:text-2xl mb-6">
-            Retiro de afetividade e sexualidade para jovens de 12 à 19 anos.
+            O Amor me explicou tudo - São João Paulo II.
           </h2>
           <p className="text-lg md:text-xl font-semibold mb-8">
             Dia 18 de Janeiro de 2026
