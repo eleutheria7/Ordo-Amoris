@@ -13,7 +13,7 @@ export default function Footer() {
           className="w-16 mb-4 md:mb-0"
         />
         <p className="text-center text-xl italic mb-4 md:mb-0">
-          “Amar é dar ao outro o que Deus colocou em você, na medida certa e na ordem certa."
+          “A medida do amor é amar sem medida - Santo Agostinho"
         </p>
         <div className="flex gap-4">
           <a
