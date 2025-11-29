@@ -4,7 +4,7 @@ import CountdownTimer from "./components/CountdownTimer";
 import Sobre from "./components/Sobre";
 import TestimonialCarousel from "./components/TestimonialCarousel";
 import Video from "./components/Video";
-import PhotosCarousel from "./components/PhotosCarousel";
+{/*import PhotosCarousel from "./components/PhotosCarousel"; */}
 import Localizacao from "./components/Localizacao";
 import Contato from "./components/Contato";
 import Footer from "./components/Footer";
@@ -30,7 +30,7 @@ export default function Home() {
       <Video />
 
       {/* Seção Fotos */}
-      <PhotosCarousel />
+      {/*<PhotosCarousel /> */}
 
       {/* Seção Mapa */}
       <Localizacao />
