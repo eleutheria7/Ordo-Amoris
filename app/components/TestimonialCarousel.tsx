@@ -11,12 +11,12 @@ import { text } from "stream/consumers";
 const testimonials = [
   {
     name: "Bíblia",
-    text: '"Leve sua Bíblia para acompanhar as pregações, aprofundar a oração e viver melhor cada momento do retiro."ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ',
+    text: '"Leve sua Bíblia para acompanhar as pregações, aprofundar a oração e viver melhor cada momento do retiro."              ',
     image: "/assets/img/Guilherme.jpg",
   },
   {
     name: "Terço",
-    text: '"Leve seu terço para os momentos de oração e para vivermos juntos a espiritualidade mariana do retiro."ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ',
+    text: '"Leve seu terço para os momentos de oração e para vivermos juntos a espiritualidade mariana do retiro."               ㅤ',
     image: "/assets/img/Natalia.jpg",
   },
   {
@@ -26,24 +26,19 @@ const testimonials = [
   },
   {
     name: "Garrafinha de água",
-    text: '"Leve uma garrafinha de água para se manter hidratado durante todo o retiro."ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ',
+    text: '"Leve uma garrafinha de água para se manter hidratado durante todo o retiro."ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ',
     image: "/assets/img/Giovana Schicovski.jpg",
   },
   {
     name: "Roupa confortável e Modesta",
-    text: '"Use roupas confortáveis e com modéstia, evitando peças curtas, justas ou chamativas."ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ',
+    text: '"Use roupas confortáveis e com modéstia, evitando peças curtas, justas ou chamativas."ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ',
     image: "/assets/img/Bianca.jpg",
   },
   {
     name: "Disposição Interior",
-    text: '"Abra o coração para receber a graça de Deus e viver plenamente tudo o que Ele preparou para você neste retiro."ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ',
+    text: '"Abra o coração para receber a graça de Deus e viver plenamente tudo o que Ele preparou para você neste retiro."ㅤㅤㅤㅤㅤ',
     image: "/assets/img/Giovana Cruz.jpg",
   },
-  {/*
-    name: "",
-    text: '"Me chamo Murillo, tenho 20 anos. Recebi o convite para o retiro de quem eu menos esperava. Como estava de boa, resolvi ir. Três dias parecem muito tempo, mas lá esses três dias pareceram horas. Eu até queria ficar mais! Foram os três dias mais importantes da minha vida, onde realmente entendi que o propósito da vida é Deus, Ele transformou minha vida de uma forma que eu não sei explicar; Ele encheu o vazio do meu coração. Lá conheci pessoas que me aproximaram de Deus, só tenho a agradecer. Se você tiver a oportunidade de participar, vá! Não pense duas vezes; Se entregue completamente! Assim como Ele mudou minha vida, pode mudar a sua."',
-    image: "/assets/img/Anonimo.png",
-  */}
   // Adicione os outros testemunhos aqui
 ];
 
@@ -51,7 +46,7 @@ export default function TestimonialCarousel() {
   return (
     <section id="Testemunhos">
       <div className="py-16 bg-gray-50">
-        <h3 className="text-3xl font-bold text-center mb-12">Testemunhos</h3>
+        <h3 className="text-3xl font-bold text-center mb-12">Recomendações</h3>
         <div className="custom-carousel-container max-w-10xl mx-auto">
           <Swiper
             modules={[Autoplay]}
