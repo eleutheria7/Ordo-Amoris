@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Eleutheria 2025",
+  title: "Ordo Amoris 2026",
 };
 
 export default function RootLayout({
