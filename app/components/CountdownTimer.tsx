@@ -33,7 +33,7 @@ export default function CountdownTimer() {
   }, []);
 
   return (
-    <div className="bg-[#FF0000] text-white py-4">
+    <div className="bg-[#8d1717] text-white py-4">
       <div className="max-w-4xl mx-auto flex justify-center gap-8 text-center">
         {Object.entries(timeLeft).map(([unit, value]) => (
           <div key={unit}>
