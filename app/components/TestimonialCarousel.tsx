@@ -12,32 +12,32 @@ const testimonials = [
   {
     name: "Bíblia",
     text: '"Leve sua Bíblia para acompanhar as pregações, aprofundar a oração e viver melhor cada momento do retiro."              ',
-    image: "/assets/img/Guilherme.jpg",
+    image: "/assets/img/biblia.png",
   },
   {
     name: "Terço",
     text: '"Leve seu terço para os momentos de oração e para vivermos juntos a espiritualidade mariana do retiro."               ㅤ',
-    image: "/assets/img/Natalia.jpg",
+    image: "/assets/img/terço.png",
   },
   {
     name: "Caderno para anotações",
     text: '"Leve um caderno de anotações para registrar inspirações, trechos das pregações e tudo o que Deus falar ao seu coração."',
-    image: "/assets/img/Rafael.jpg",
+    image: "/assets/img/caderno.png",
   },
   {
     name: "Garrafinha de água",
     text: '"Leve uma garrafinha de água para se manter hidratado durante todo o retiro."ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ',
-    image: "/assets/img/Giovana Schicovski.jpg",
+    image: "/assets/img/agua.png",
   },
   {
     name: "Roupa confortável e Modesta",
     text: '"Use roupas confortáveis e com modéstia, evitando peças curtas, justas ou chamativas."ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ',
-    image: "/assets/img/Bianca.jpg",
+    image: "/assets/img/roupa.png",
   },
   {
     name: "Disposição Interior",
     text: '"Abra o coração para receber a graça de Deus e viver plenamente tudo o que Ele preparou para você neste retiro."ㅤㅤㅤㅤㅤ',
-    image: "/assets/img/Giovana Cruz.jpg",
+    image: "/assets/img/coraçao.png",
   },
   // Adicione os outros testemunhos aqui
 ];
