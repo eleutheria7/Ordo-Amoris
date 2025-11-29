@@ -23,7 +23,7 @@ export default function Sobre() {
           <div className="space-y-6 text-lg text-justify">
           <p className="leading-relaxed">
           O Ordo Amoris é um retiro católico organizado pela juventude da
-          Paróquia Santa Luzia de Hortolândia/SP, destinado a jovens de 14 a
+          Paróquia Santa Luzia de Hortolândia/SP, destinado a jovens de 12 a
           19 anos.
           </p>
 
