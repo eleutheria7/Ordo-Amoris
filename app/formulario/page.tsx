@@ -540,8 +540,9 @@ const handleClosePopup = () => {
                 
                 <h2 className="text-lg font-bold mb-2">Formulário Enviado!</h2>
                 <p>Parabéns, sua inscrição foi concluída!</p>
-                <p>Tivemos uma grande procura pelo retiro e, devido ao número de inscrições, você entrou na fila de espera.</p>
-                <p><p>Caso haja alguma desistência ou surja uma nova vaga entraremos em contato com você!</p></p>
+                <p>Caso tenha alguma dúvida ou já deseje realizar o pagamento, entre em contato clicando no botão abaixo.</p>
+                <p>Em breve entraremos em contato para te passar algumas informações importantes. Deus abençoe!</p>
+
                 
                 {/* Botão Secretaria simples */}
                 <a
