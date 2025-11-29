@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#9acd32] text-white py-8 px-4">
+    <footer className="bg-[#91aa68] text-white py-8 px-4">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between">
         <img
           src="/assets/img/paroquia.png"
