@@ -63,7 +63,7 @@ export default function Header() {
         </Link>
         {/* Conteúdo desktop */}
         <div className="hidden md:flex space-x-8 text-2xl items-center">
-          {["Sobre", "Testemunhos", "Fotos", "Local", "Contato"].map((item) => (
+          {["Sobre", "Recomendações", "Fotos", "Local", "Contato"].map((item) => (
             <ScrollLink
               key={item}
               href={`#${item}`}
@@ -88,7 +88,7 @@ export default function Header() {
 
           {isOpen && (
             <div className="flex flex-col gap-4 top-full left-0 right-0 bg-white shadow-lg p-4 py-2 px-4 pb-8 text-gray-600 hover:bg-gray-100 text-2xl">
-              {["Sobre", "Testemunhos", "Fotos", "Local", "Contato"].map(
+              {["Sobre", "Recomendações", "Fotos", "Local", "Contato"].map(
                 (item) => (
                   <ScrollLink
                     key={item}
