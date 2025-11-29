@@ -546,7 +546,7 @@ const handleClosePopup = () => {
                 
                 {/* Botão Secretaria simples */}
                 <a
-                  href="https://wa.me/19982305367"
+                  href="https://wa.me/19996241186"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-4 px-3 py-1 bg-green-600 text-white rounded hover:bg-green-700 transition inline-block"
