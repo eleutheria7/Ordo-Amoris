@@ -17,7 +17,7 @@ export default function FormularioPage() {
 
 
   const calculateAge = (birthDate: Date) => {
-    const referenceDate = new Date('2025-06-20'); // <- Data limite
+    const referenceDate = new Date('2026-01-18'); // <- Data limite
     let age = referenceDate.getFullYear() - birthDate.getFullYear();
     const monthDiff = referenceDate.getMonth() - birthDate.getMonth();
 
@@ -38,7 +38,7 @@ export default function FormularioPage() {
       const birthDate = new Date(date);
       const age = calculateAge(birthDate);
 
-      if (age < 14) {
+      if (age < 12) {
         setAgeError("Você deve ter pelo menos 12 anos completos para se inscrever");
       } else {
         setAgeError("");
