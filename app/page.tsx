@@ -1,11 +1,11 @@
-import Header from "./components/Header";
+/*       import Header from "./components/Header";
 import EleutheriaBanner from "./components/EleutheriaBanner";
 import CountdownTimer from "./components/CountdownTimer";
 import Sobre from "./components/Sobre";
 import TestimonialCarousel from "./components/TestimonialCarousel";
 import Video from "./components/Video";
 {/*import PhotosCarousel from "./components/PhotosCarousel"; */}
-import Localizacao from "./components/Localizacao";
+/*        import Localizacao from "./components/Localizacao";
 import Contato from "./components/Contato";
 import Footer from "./components/Footer";
 
